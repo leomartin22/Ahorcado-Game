@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>JUEGO DEL AHORCADO</title>
+    <script async type="text/javascript" src="./scripts/canvas.js"></script>
+    <script async type="text/javascript" src="./scripts/horcado.js"></script>
+
+
+</head>
+
+<body id="body">
+    <h1 class="titulo">Juego del Ahorcado</h1>
+
+    <div style="text-align: center">
+        <button class="btn" id="iniciar-juego" type="button">INICIAR</button>
+        <input type="button" class="btn" value="REINICIAR" onclick="location.reload()" />
+      
+        <input class="text-input" type="text"  id="input-nueva-palabra"
+            placeholder="Escriba una nueva palabra sin números ni caracteres especiales">
+        <button class="btn-2" id="nueva-palabra" type="button">AGREGAR PALABRA</button>
+    </div>
+    <canvas id="ahorcado" height="800px" width="1200px"></canvas>
+    <footer>
+        <div class="pie">
+          <h3> Todos los derechos reservados 2022, Juego de la Horca. Diseñado por: LEONARDO ORDOÑEZ</h3>
+        </div>
+        
+      </footer>
+
+</body>
+
+</html>
